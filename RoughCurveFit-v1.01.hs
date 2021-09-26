@@ -115,7 +115,6 @@ printHandL xs = do
     print ("highest: y = " ++ show highK ++ "x" ++ " + " ++ show m)
     print ("lowest: y = " ++ show lowK ++ "x" ++ " + " ++ show m)
   where
-    -- Samma som tidigare (y)
     highK = fst (getHighestLowestK xs)
     lowK  = snd (getHighestLowestK xs)
     m     = getM xs
